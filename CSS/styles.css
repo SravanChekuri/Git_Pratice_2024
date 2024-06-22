@@ -1,12 +1,20 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css');
+@import url('~../node_modules/bootstrap/dist/css/bootstrap.min.css');
+
 *{
     margin: 0;
     padding: 0;
 }
 
+body{
+    background-color: #eeeeee;
+}
+
 .profile-heading{
-    color: blue;
+    color:#373A40;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     margin: 2%;
+    text-shadow: 2px 2px 2px #DC5F00;
 }
